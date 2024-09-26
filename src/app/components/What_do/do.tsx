@@ -43,7 +43,7 @@ const Do = () => {
   return (
     <div className="mx-20 my-16">
       <h1 className="text-4xl font-bold mb-10">What We Do</h1>
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
         {doData.map((d) => {
           return (
             <div key={d.title} className="">
